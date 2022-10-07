@@ -1,0 +1,81 @@
+:root{
+    --cup-dark-blue: #212529;
+    --cup-gray: #707070;
+    --cup-green: #28A745;
+    --cup-grayline: #707070A0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: var(--cup-green);
+}
+
+.products .card-title{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--cup-dark-blue);
+}
+
+.products .card-subtitle{
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: var(--cup-gray);
+}
+
+.products .card-direccion{
+    font-size: 1.08rem;
+    font-weight: 300;
+    color: var(--cup-gray);
+}
+
+.products .card-linea hr{
+    color: var(--cup-grayline);
+}
+
+.products .card-precio{
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: var(--cup-gray);
+}
+
+.products span{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--cup-green);
+    margin-left: 0.5em;
+}
+
+.formulario{
+    background-color: var(--cup-green);
+}
+
+.formulario h5 {
+    color:white;
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.formulario .form-control{
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: var(--cup-gray);
+}
+
+.formulario .btn{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--cup-dark-blue);
+}
+
+footer img{
+    height: 2rem;
+}
+
+footer h5{
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: var(--cup-gray);
+}
